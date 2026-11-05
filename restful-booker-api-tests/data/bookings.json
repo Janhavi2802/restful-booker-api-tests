@@ -1,0 +1,57 @@
+[
+  {
+    "id": "standard_with_deposit",
+    "payload": {
+      "firstname": "Janhavi",
+      "lastname": "Kulkarni",
+      "totalprice": 1500,
+      "depositpaid": true,
+      "bookingdates": {"checkin": "2026-12-01", "checkout": "2026-12-05"},
+      "additionalneeds": "Breakfast"
+    }
+  },
+  {
+    "id": "no_deposit",
+    "payload": {
+      "firstname": "Ravi",
+      "lastname": "Shetty",
+      "totalprice": 800,
+      "depositpaid": false,
+      "bookingdates": {"checkin": "2027-01-10", "checkout": "2027-01-12"},
+      "additionalneeds": "Late checkout"
+    }
+  },
+  {
+    "id": "zero_price_boundary",
+    "payload": {
+      "firstname": "Asha",
+      "lastname": "Rao",
+      "totalprice": 0,
+      "depositpaid": false,
+      "bookingdates": {"checkin": "2027-02-01", "checkout": "2027-02-02"},
+      "additionalneeds": "None"
+    }
+  },
+  {
+    "id": "same_day_checkin_checkout",
+    "payload": {
+      "firstname": "Kiran",
+      "lastname": "Desai",
+      "totalprice": 300,
+      "depositpaid": true,
+      "bookingdates": {"checkin": "2027-03-15", "checkout": "2027-03-15"},
+      "additionalneeds": "Lunch"
+    }
+  },
+  {
+    "id": "unicode_names",
+    "payload": {
+      "firstname": "जान्हवी",
+      "lastname": "O'Brien-Müller",
+      "totalprice": 999,
+      "depositpaid": true,
+      "bookingdates": {"checkin": "2027-04-01", "checkout": "2027-04-03"},
+      "additionalneeds": "Vegetarian meals"
+    }
+  }
+]

@@ -1,0 +1,7 @@
+pytest>=8.0
+requests>=2.31
+jsonschema>=4.21
+PyYAML>=6.0
+allure-pytest>=2.13
+pytest-xdist>=3.5
+pytest-rerunfailures>=14.0

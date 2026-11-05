@@ -1,0 +1,7 @@
+[
+  {"id": "missing_firstname", "remove": "firstname"},
+  {"id": "missing_lastname", "remove": "lastname"},
+  {"id": "missing_totalprice", "remove": "totalprice"},
+  {"id": "missing_depositpaid", "remove": "depositpaid"},
+  {"id": "missing_bookingdates", "remove": "bookingdates"}
+]

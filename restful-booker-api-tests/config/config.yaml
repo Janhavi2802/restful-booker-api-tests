@@ -1,0 +1,15 @@
+# Per-environment settings. Pick one with:  pytest --env=prod   (default: prod)
+# or set the API_ENV environment variable.
+
+prod:
+  base_url: https://restful-booker.herokuapp.com
+  username: admin
+  password: password123
+  timeout: 15
+
+local:
+  # Offline mock server (python -m mock_server.server)
+  base_url: http://127.0.0.1:5001
+  username: admin
+  password: password123
+  timeout: 5
